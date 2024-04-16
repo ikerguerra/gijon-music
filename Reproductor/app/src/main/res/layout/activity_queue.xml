@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QueueActivity"
+    android:orientation="vertical"
+    style="@style/Padding_Layout"
+    android:background="@color/greyLight">
+
+    <ImageButton
+        android:id="@+id/btnFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_close_24"
+        android:layout_marginBottom="@dimen/margin_large"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de reproducción sonando"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginBottom="@dimen/margin_large"/>
+    <ListView
+        android:id="@+id/lvQueueSongs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:dividerHeight="10dp"/>
+
+</LinearLayout>

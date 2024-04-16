@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_normal">
+
+    <ImageView
+        android:id="@+id/imgViewAlbum"
+        android:src="@drawable/default_record_album"
+        android:layout_width="@dimen/list_itemHeight"
+        android:layout_height="@dimen/list_itemHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_itemHeight"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_large"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_list_title"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/song_artist_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/text_list_hint"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_more_vert_24"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

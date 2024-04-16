@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Common -->
+    <dimen name="divider_line">1px</dimen>
+    <dimen name="divider_small">4dp</dimen>
+    <dimen name="divider_normal">8dp</dimen>
+    <dimen name="divider_large">16dp</dimen>
+    <dimen name="divider_xlarge">24dp</dimen>
+
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_normal">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_xlarge">24dp</dimen>
+
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_normal">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_xlarge">24dp</dimen>
+
+    <dimen name="text_list_title">14sp</dimen>
+    <dimen name="text_list_hint">12sp</dimen>
+    <dimen name="text_hint">12sp</dimen>
+
+    <dimen name="toolbar_paddingTop">0dp</dimen>
+
+    <dimen name="material_marginLeft">72dp</dimen>
+
+    <dimen name="list_itemHeight">54dp</dimen>
+    <dimen name="list_scrollbarSize">4dp</dimen>
+
+    <!-- Music -->
+    <dimen name="music_album_size">260dp</dimen>
+    <dimen name="music_seekBar_marginTop">50dp</dimen>
+    <dimen name="music_playControls_marginTop">24dp</dimen>
+    <dimen name="music_playControls_marginBottom">8dp</dimen>
+
+    <!-- CharacterView -->
+    <dimen name="characterView_padding">6dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

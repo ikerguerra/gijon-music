@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuRemove"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Eliminar playlist"/>
+    <item
+        android:id="@+id/menuName"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Cambiar nombre de la playlist"/>
+    <item
+        android:id="@+id/menuImage"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Cambiar imagen de la playlist"/>
+</menu>

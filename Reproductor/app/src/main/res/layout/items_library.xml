@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/padding_large">
+
+    <ImageView
+        android:id="@+id/imgPlaylist"
+        android:layout_width="@dimen/list_itemHeight"
+        android:layout_height="@dimen/list_itemHeight"
+        android:background="@drawable/img_playlist_empty"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_large">
+
+        <TextView
+            android:id="@+id/txtNamePlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_list_title"
+            android:fontFamily="sans-serif"
+            android:text="Item de la lista" />
+
+        <TextView
+            android:id="@+id/txtNumSongsPlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_list_hint"
+            android:fontFamily="sans-serif"
+            android:text="Item de la lista" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_navigate_next_24" />
+</LinearLayout>
